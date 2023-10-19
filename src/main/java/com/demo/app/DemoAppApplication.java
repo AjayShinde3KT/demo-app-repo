@@ -16,10 +16,10 @@ public class DemoAppApplication {
     @PostConstruct
     public void init() {
         logger.info("Application Started!!!!!!!!!!!!!!");
+        logger.info("Ajay Shinde Application");
     }
 
     public static void main(String[] args) {
-        logger.info("Application Executed!!!!1");
         SpringApplication.run(DemoAppApplication.class, args);
     }
 
